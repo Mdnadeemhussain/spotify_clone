@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favorite Music is Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songitemcontainer">
+                <!-- Repeat this section for each song item -->
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">salam-e-ishq</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="1" class="fas fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span>mariz-e-ishq</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="2" class="fas fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">tum hi ho</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="3" class="fas fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">jhoome jo [pathaan</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="4" class="fas fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">zinda banda</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="5" class="fas fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">besharam rang</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="6" class="fas fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">hum tum se mohabbat karte hai</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="7" class="fas fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">i hate love story</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="8" class="fas fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">amplifier</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="9" class="fas fa-play-circle"></i></span></span>
+                </div>
+                <!-- Repeat section ends here -->
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- Font Awesome icons -->
+            <i class="fas fa-fast-backward" id="previous"></i>
+            <i class="fas fa-play-circle fa-2x" id="masterplay"></i>
+            <i class="fas fa-fast-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="./playing.gif" width="52px" alt="" id="gif"> <span id="masterSongName">salame-e-ishq</span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" crossorigin="anonymous"></script>
+</body>
+</html>
+
